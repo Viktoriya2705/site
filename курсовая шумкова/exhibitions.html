@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4285f4" />
+    <title>Галерея современного искусства "Престиж"</title>
+    <link rel="icon" href="./img/Group 2.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/style/style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header>
+      <div class="container header-container">
+        <a href="index.html" class="logo"><img src="./img/Group 1.svg" alt="hbsh" class="photo">РЕСТИЖ<span>.</span></a>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index.html#about">О галерее</a></li>
+            <li><a href="exhibitions.html" class="active">Выставки</a></li>
+            <li><a href="artists.html">Художники</a></li>
+            <li><a href="index.html#events">Мероприятия</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="index.html#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+      <div class="container">
+        <h1 class="section-title">Выставки</h1>
+
+        <!-- Табы -->
+        <div class="exhibition-tabs">
+          <button class="tab-btn active">Текущие</button>
+          <button class="tab-btn">Предстоящие</button>
+          <button class="tab-btn">Архив</button>
+        </div>
+
+        <!-- Фильтры -->
+        <div class="exhibition-filters">
+          <button class="filter-btn active">Все</button>
+          <button class="filter-btn">Живопись</button>
+          <button class="filter-btn">Скульптура</button>
+          <button class="filter-btn">Фотография</button>
+          <button class="filter-btn">Инсталляции</button>
+          <button class="filter-btn">Смешанные</button>
+        </div>
+
+        <!-- Список выставок -->
+        <div class="exhibitions-list">
+          <!-- Выставка 1 -->
+          <div class="exhibition-card">
+            <div class="exhibition-image">
+              <img
+                src="https://images.unsplash.com/photo-1578926375605-eaf7559b1458?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt="Грани современности"
+              />
+            </div>
+            <div class="exhibition-info">
+              <div class="exhibition-date">15 июня - 30 августа 2023</div>
+              <h3 class="exhibition-title">Грани современности</h3>
+              <div class="exhibition-artists">
+                Алексей Петров, Мария Смирнова, Джон Смит и другие
+              </div>
+              <p class="exhibition-description">
+                Крупнейшая выставка сезона представляет работы 25 современных
+                художников из 12 стран мира. Экспозиция исследует границы между
+                традиционными и цифровыми медиа в искусстве.
+              </p>
+              <a href="exhibition-detail.html" class="btn">Подробнее</a>
+            </div>
+          </div>
+
+          <!-- Выставка 2 -->
+          <div class="exhibition-card">
+            <div class="exhibition-image">
+              <img src="./img/2 страничка диалог.jpg" alt="Безмолвный диалог" />
+            </div>
+            <div class="exhibition-info">
+              <div class="exhibition-date">1 июля - 15 сентября 2023</div>
+              <h3 class="exhibition-title">Безмолвный диалог</h3>
+              <div class="exhibition-artists">София Леруа, Анна Ковалева</div>
+              <p class="exhibition-description">
+                Диалог между скульптурой и фотографией в работах двух выдающихся
+                художниц нашего времени. Проект специально создан для галереи
+                "Престиж".
+              </p>
+              <a href="exhibition-detail.html" class="btn">Подробнее</a>
+            </div>
+          </div>
+
+          <!-- Выставка 3 -->
+          <div class="exhibition-card">
+            <div class="exhibition-image">
+              <img
+                src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt="Городские текстуры"
+              />
+            </div>
+            <div class="exhibition-info">
+              <div class="exhibition-date">10 августа - 25 октября 2023</div>
+              <h3 class="exhibition-title">Городские текстуры</h3>
+              <div class="exhibition-artists">
+                Михаил Иванов, Карлос Санчес, Юлия Ветрова
+              </div>
+              <p class="exhibition-description">
+                Исследование урбанистического пространства через призму уличного
+                искусства и текстильных инсталляций. Выставка-размышление о
+                природе современного города.
+              </p>
+              <a href="exhibition-detail.html" class="btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>Галерея "Престиж"</h3>
+            <p>
+              Пространство современного искусства, где встречаются традиции и
+              инновации.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-telegram-plane"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Разделы</h3>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="index.html#about">О галерее</a></li>
+              <li><a href="exhibitions.html">Выставки</a></li>
+              <li><a href="artists.html">Художники</a></li>
+              <li><a href="index.html#events">Мероприятия</a></li>
+              <li><a href="blog.html">Блог</a></li>
+              <li><a href="index.html#contacts">Контакты</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Контакты</h3>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Москва, ул. Артистов д.15
+              </li>
+              <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+              <li>
+                <i class="fas fa-envelope"></i> info@prestigeartgallery.ru
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Подписаться</h3>
+            <p>Получайте новости о выставках и мероприятиях</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Ваш email" />
+              <button type="submit" class="btn">OK</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>
+            &copy; 2023 Галерея современного искусства "Престиж". Все права
+            защищены.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="skript.js"></script>
+  </body>
+</html>
